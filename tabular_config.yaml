@@ -1,0 +1,25 @@
+# Configuration for tabular datasets (reduction validation)
+
+model:
+  n_hidden: 200
+  scale: 1.0
+  lambda_reg: 1e-4
+  activation: tanh
+  use_bias: true
+  use_logistic: false
+
+operators:
+  g_operators: []
+  b_operators: []
+
+experiment:
+  n_runs: 10
+  test_size: 0.2
+
+datasets:
+  - iris
+  - wine
+  - breast_cancer
+  - digits
+  - mnist
+  - letter

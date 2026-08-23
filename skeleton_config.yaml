@@ -1,0 +1,25 @@
+# Configuration for skeleton datasets
+
+model:
+  n_hidden: 1000
+  scale: 0.5
+  lambda_reg: 1e-6
+  activation: relu
+  use_bias: true
+
+operators:
+  g_operators:
+    - type: JointVelocityOperator
+      time_window: 1
+  b_operators:
+    - type: JointDisplacementOperator
+      time_window: 1
+      normalize: true
+
+experiment:
+  n_runs: 10
+  test_size: 0.2
+
+datasets:
+  - ntu
+  - ntu120

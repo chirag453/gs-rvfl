@@ -1,0 +1,27 @@
+# Configuration for sensor datasets
+
+model:
+  n_hidden: 500
+  scale: 1.0
+  lambda_reg: 1e-4
+  activation: tanh
+  use_bias: true
+
+operators:
+  g_operators:
+    - type: SensorVelocity
+      time_window: 1
+      smoothing: true
+  b_operators:
+    - type: SensorDisplacement
+      time_window: 1
+      normalize: true
+
+experiment:
+  n_runs: 10
+  test_size: 0.2
+
+datasets:
+  - har
+  - wisdm
+  - pamap2
