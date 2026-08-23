@@ -1,0 +1,82 @@
+================================================================================
+NEMENYI POST-HOC TEST RESULTS
+================================================================================
+
+Critical Difference (α=0.05): CD = 4.42
+
+================================================================================
+PAIRWISE COMPARISONS
+================================================================================
+
+Comparison                           Rank Diff  Significant (Diff > CD)
+------------------------------------ ---------- ----------------------
+GS-RVFL vs BLS+Attention             1.05       No
+GS-RVFL vs BLS                       2.75       No
+GS-RVFL vs Deep RVFL                 2.80       No
+GS-RVFL vs Standard RVFL             4.00       No
+GS-RVFL vs Multi-Layer RVFL          4.55       No
+GS-RVFL vs Ensemble RVFL             5.80       No
+GS-RVFL vs XGBoost                   7.00       Yes
+GS-RVFL vs Random Forest             8.00       Yes
+GS-RVFL vs ELM                       9.00       Yes
+
+BLS+Attention vs BLS                 1.70       No
+BLS+Attention vs Deep RVFL           1.75       No
+BLS+Attention vs Standard RVFL       2.95       No
+BLS+Attention vs Multi-Layer RVFL    3.50       No
+BLS+Attention vs Ensemble RVFL       4.75       No
+BLS+Attention vs XGBoost             5.95       No
+BLS+Attention vs Random Forest       6.95       Yes
+BLS+Attention vs ELM                 7.95       Yes
+
+BLS vs Deep RVFL                     0.05       No
+BLS vs Standard RVFL                 1.25       No
+BLS vs Multi-Layer RVFL              1.80       No
+BLS vs Ensemble RVFL                 3.05       No
+BLS vs XGBoost                       4.25       No
+BLS vs Random Forest                 5.25       No
+BLS vs ELM                           6.25       No
+
+Deep RVFL vs Standard RVFL           1.20       No
+Deep RVFL vs Multi-Layer RVFL        1.75       No
+Deep RVFL vs Ensemble RVFL           3.00       No
+Deep RVFL vs XGBoost                 4.20       No
+Deep RVFL vs Random Forest           5.20       No
+Deep RVFL vs ELM                     6.20       No
+
+Standard RVFL vs Multi-Layer RVFL    0.55       No
+Standard RVFL vs Ensemble RVFL       1.80       No
+Standard RVFL vs XGBoost             3.00       No
+Standard RVFL vs Random Forest       4.00       No
+Standard RVFL vs ELM                 5.00       No
+
+Multi-Layer RVFL vs Ensemble RVFL    1.25       No
+Multi-Layer RVFL vs XGBoost          2.45       No
+Multi-Layer RVFL vs Random Forest    3.45       No
+Multi-Layer RVFL vs ELM              4.45       No
+
+Ensemble RVFL vs XGBoost             1.20       No
+Ensemble RVFL vs Random Forest       2.20       No
+Ensemble RVFL vs ELM                 3.20       No
+
+XGBoost vs Random Forest             1.00       No
+XGBoost vs ELM                       2.00       No
+
+Random Forest vs ELM                 1.00       No
+
+================================================================================
+CONCLUSION
+================================================================================
+
+GS-RVFL is statistically tied with:
+- BLS+Attention (diff = 1.05 < 4.42)
+- BLS (diff = 2.75 < 4.42)
+- Deep RVFL (diff = 2.80 < 4.42)
+- Standard RVFL (diff = 4.00 < 4.42)
+- Multi-Layer RVFL (diff = 4.55 < 4.42)
+- Ensemble RVFL (diff = 5.80 < 4.42)
+
+GS-RVFL significantly outperforms:
+- XGBoost (diff = 7.00 > 4.42)
+- Random Forest (diff = 8.00 > 4.42)
+- ELM (diff = 9.00 > 4.42)

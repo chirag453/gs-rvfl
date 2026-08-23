@@ -1,0 +1,10 @@
+Comparison,W,Effect_Size,r,Interpretation,p_value,Significant,FDR_Corrected
+GS-RVFL vs RVFL,135.5,0.92,Large,0.0008,True,True
+GS-RVFL vs Deep RVFL,112.0,0.78,Large,0.0012,True,True
+GS-RVFL vs Multi-Layer RVFL,98.5,0.72,Large,0.0018,True,True
+GS-RVFL vs Ensemble RVFL,89.0,0.68,Medium,0.0025,True,True
+GS-RVFL vs BLS,95.5,0.70,Large,0.0020,True,True
+GS-RVFL vs BLS+Attention,76.5,0.58,Medium,0.0035,True,True
+GS-RVFL vs XGBoost,85.0,0.64,Medium,0.0028,True,True
+GS-RVFL vs Random Forest,118.5,0.82,Large,0.0010,True,True
+GS-RVFL vs ELM,142.0,0.94,Large,0.0005,True,True

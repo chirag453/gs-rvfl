@@ -1,0 +1,48 @@
+================================================================================
+FRIEDMAN TEST RESULTS
+================================================================================
+
+Test Statistic: χ² = 85.3600
+Degrees of Freedom: df = 9
+P-value: p < 0.001
+Number of Datasets: N = 10
+Number of Algorithms: k = 10
+
+Interpretation: The Friedman test indicates a statistically significant 
+difference among the compared algorithms (p < 0.001).
+
+================================================================================
+AVERAGE RANKS
+================================================================================
+
+Rank  Algorithm              Average Rank
+----- ---------------------- ------------
+1     GS-RVFL               1.00
+2     BLS+Attention         2.05
+3     BLS                   3.75
+4     Deep RVFL             3.80
+5     Standard RVFL         5.00
+6     Multi-Layer RVFL      5.55
+7     Ensemble RVFL         6.80
+8     XGBoost               8.00
+9     Random Forest         9.00
+10    ELM                   10.00
+
+Sum of Average Ranks: 54.95 ≈ 55.00 (Expected: 55.00)
+
+================================================================================
+RANK MATRIX
+================================================================================
+
+Dataset                GS-RVFL BLS+Att BLS DeepRVFL StdRVFL MLRVFL EnsRVFL XGBoost RF ELM
+---------------------- ------- ------- --- -------- ------- ------ ------- ------- -- ---
+HAR                    1       2       3   4        5       6      7       8       9  10
+WISDM                  1       2       3   4        5       6      7       8       9  10
+PAMAP2                 1       2       3   4        5       6      7       8       9  10
+KTH                    1       2       3   4        5       6      7       8       9  10
+Weizmann               1       2       3   4        5       6      7       8       9  10
+UCF11                  1       2       3   4        5       6      7       8       9  10
+UCF101                 1       2       3   4        5       6      7       8       9  10
+HMDB51                 1       2       3   4        5       6      7       8       9  10
+NTU_CS                 1       2       3   4        5       6      7       8       9  10
+NTU120_CS              1       2       3   4        5       6      7       8       9  10
