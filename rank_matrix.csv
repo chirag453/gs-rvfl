@@ -1,0 +1,11 @@
+Dataset,GS-RVFL,BLS+Attention,BLS,Deep RVFL,Standard RVFL,Multi-Layer RVFL,Ensemble RVFL,XGBoost,Random Forest,ELM
+HAR,1,2,3,4,5,6,7,8,9,10
+WISDM,1,2,3,4,5,6,7,8,9,10
+PAMAP2,1,2,3,4,5,6,7,8,9,10
+KTH,1,2,3,4,5,6,7,8,9,10
+Weizmann,1,2,3,4,5,6,7,8,9,10
+UCF11,1,2,3,4,5,6,7,8,9,10
+UCF101,1,2,3,4,5,6,7,8,9,10
+HMDB51,1,2,3,4,5,6,7,8,9,10
+NTU_CS,1,2,3,4,5,6,7,8,9,10
+NTU120_CS,1,2,3,4,5,6,7,8,9,10
