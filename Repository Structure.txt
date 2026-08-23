@@ -1,0 +1,10 @@
+gs-rvfl/
+├── gs_rvfl/          # Core implementation
+│   ├── core.py       # GS-RVFL main classes
+│   ├── operators.py  # Structured and adaptive operators
+│   ├── base.py       # Base classes
+│   └── utils.py      # Utility functions
+├── experiments/      # Experiment scripts
+├── results/          # Pre-computed results
+├── tests/            # Unit tests
+└── notebooks/        # Tutorial notebooks
